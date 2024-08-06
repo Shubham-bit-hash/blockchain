@@ -24,6 +24,10 @@ This project aims to build a simple blockchain to help you learn about blockchai
 
 3. **Install Dependencies:**
    - To use cryptographic functions, you can choose between `crypto` (built-in Node.js module) or `crypto-js`.
+   - install `crypto`
+      ```
+     npm install crypto
+     ```
    - If you prefer `crypto`, This package is no longer supported. It's now a built-in Node module. If you've depended on crypto, better u can use `crypto-js`.
    - If you want to use `crypto-js`, install it using:
      ```
